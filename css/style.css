@@ -1,0 +1,179 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background-color: #f6f8fa;
+}
+@font-face{
+  font-family: League;
+  src: url(../fonts/LeagueSpartan-Bold.otf);
+  }
+
+.container{width:90%}
+
+.home{
+     background-image: linear-gradient(306deg, #ffffff , #cbdee7 30% );
+    /*background-image: linear-gradient(306deg, #ffffff 100%, #cbdee7 33%);*/
+  }
+  #logo{
+    max-width: 100px;
+  }
+  h1{
+    font-family: League;
+    font-size: 90px;
+    color: #0e669e;
+    margin-top: 10%;
+  }
+  h2{
+    font-family: League;
+    font-size: 60px;
+    color: #ffffff;
+  }
+  h3{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .apply{
+    width: 405px;
+    height: 75px;
+    
+    background-color: #0e669e;
+  }
+  h4{
+    font-family: League;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px;    
+  }
+  .covid{
+    margin-top: 10%;
+    width: 200px;
+    height: 50px;
+    
+    background-color: #ec4042;
+  }
+  #cov{
+    font-size: 20px;
+    line-height: 50px;    
+  }
+  #screen1{
+    max-width: 600px;
+
+  }
+
+  .offer{
+    background-color: #f6f8fa;
+
+  }
+
+  h5{
+    font-family: League;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+  }
+  .heading{
+    padding-top: 10%;
+    padding-bottom: 5%;
+    padding-right: 20%;
+    padding-left: 20%;
+  }
+  h6{
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 400;
+    color: #000000;
+    padding-bottom: 10%;
+    padding-left: 15%;
+  }
+
+  .containerPhone{
+    position: relative;
+    text-align: center;
+  }
+  .phoneB{
+    margin-top: 5%;
+    max-width: 300px;
+  }
+  .PB{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .PBlogo{
+    max-width: 70px;
+    
+  }
+  #hscreen1{
+    font-size: 20px;
+    color: #0e669e;
+  }
+  .bscreen{
+      width: 220px;
+      height: 270px;
+      border-radius: 15.2px;
+      box-shadow: 0 10px 15px 0 rgba(41, 94, 255, 0.05);
+      background-color: #ffffff;
+  }
+  .PBproc{
+    position: absolute;
+    max-width: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 10%;
+  }
+  #hscreen2{
+    position: absolute;
+    font-size: 45px;
+    color: #000000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 12%;
+  }
+  #hscreen3{
+    position: absolute;
+    margin-top: 80%;
+    font-size: 20px;
+    color: #000000;
+    padding-left: 2%;
+    padding-right: 2%;
+
+  }
+
+
+@media (min-width: 1600px) {
+  
+  
+}
+
+@media (max-width:1300px){
+}
+
+@media (max-width: 992px){
+  h5{font-size: 30px;}
+  .heading{padding-right: 0%;padding-left: 0%;}
+  h6{padding-left:0%;}
+
+
+}
+
+
+@media (max-width: 688px){
+  h5{font-size: 30px;}
+  .heading{padding-right: 0%;padding-left: 0%;}
+  h6{padding-left:0%;}
+
+
+
+  }
